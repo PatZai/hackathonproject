@@ -1,8 +1,8 @@
-
 // import "https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+import "./style.css";
 
 const ForumList = () => {
 	return (
@@ -13,7 +13,6 @@ const ForumList = () => {
 						<div class="col-lg-6 mb-3 mb-sm-0">
 							<div
 								class="dropdown bootstrap-select form-control form-control-lg bg-white bg-op-9 text-sm w-lg-50"
-								style={"width: 100%"}
 							>
 								<select
 									class="form-control form-control-lg bg-white bg-op-9 text-sm w-lg-50"
@@ -30,7 +29,6 @@ const ForumList = () => {
 						<div class="col-lg-6 text-lg-right">
 							<div
 								class="dropdown bootstrap-select form-control form-control-lg bg-white bg-op-9 ml-auto text-sm w-lg-50"
-								style={"width: 100%;"}
 							>
 								<select
 									class="form-control form-control-lg bg-white bg-op-9 ml-auto text-sm w-lg-50"
@@ -67,13 +65,13 @@ const ForumList = () => {
 								<div class="text-sm op-5">
 									{' '}
 									<a class="text-black mr-2" href=" ">
-										 C++
+										C++
 									</a>{' '}
 									<a class="text-black mr-2" href=" ">
-										 AppStrap Theme
+										AppStrap Theme
 									</a>{' '}
 									<a class="text-black mr-2" href=" ">
-										 Wordpress
+										Wordpress
 									</a>{' '}
 								</div>
 							</div>
@@ -120,10 +118,10 @@ const ForumList = () => {
 								<div class="text-sm op-5">
 									{' '}
 									<a class="text-black mr-2" href=" ">
-										 Development
+										Development
 									</a>{' '}
 									<a class="text-black mr-2" href=" ">
-										 AppStrap Theme
+										AppStrap Theme
 									</a>{' '}
 								</div>
 							</div>
@@ -171,16 +169,16 @@ const ForumList = () => {
 								<div class="text-sm op-5">
 									{' '}
 									<a class="text-black mr-2" href=" ">
-										 Development
+										Development
 									</a>{' '}
 									<a class="text-black mr-2" href=" ">
-										 iOS
+										iOS
 									</a>{' '}
 									<a class="text-black mr-2" href=" ">
-										 Bootstrap 4
+										Bootstrap 4
 									</a>{' '}
 									<a class="text-black mr-2" href=" ">
-										 Wordpress
+										Wordpress
 									</a>{' '}
 								</div>
 							</div>
@@ -208,12 +206,11 @@ const ForumList = () => {
 				</div>
 
 				<div class="col-lg-3 mb-4 mb-lg-0 px-lg-0 mt-lg-0">
-					<div style={"visibility: hidden; display: none; width: 285px; height: 801px; margin: 0px; float: none; position: static; inset: 85px auto auto;"}></div>
+					<div class="idk"></div>
 					<div
 						data-settings='{"parent":" content","mind":" header","top":10,"breakpoint":992}'
 						data-toggle="sticky"
 						class="sticky"
-						style={"top: 85px;"}
 					>
 						<div class="sticky-inner">
 							<a
@@ -305,11 +302,11 @@ const ForumList = () => {
 			</div>
 		</div>
 	);
-	
-		/* <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript"> */
-	
+
+	/* <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript"> */
+
 };
 
 export default ForumList;

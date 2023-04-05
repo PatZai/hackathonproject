@@ -1,7 +1,7 @@
 
 import NavbarList from '../components/Navbar/NavbarList';
 import Footers from '../components/Footers/Footers';
-import ForumList from '../components/ForumList';
+import ForumList from '../components/ForumList/ForumList';
 
 const ForumPage = () => {
 	return (

@@ -1,0 +1,18 @@
+.dropdown {
+  width: 100%;
+}
+
+.sticky {
+  top: 85px;
+}
+
+.idk {
+  visibility: hidden;
+  display: none;
+  width: 285px;
+  height: 801px;
+  margin: 0px;
+  float: none;
+  position: static;
+  inset: 85px auto auto;
+}
