@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 
 {/* <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet"> */}
@@ -147,8 +146,3 @@
     </script>
   )
  }
-=======
-const Forum = () => {
-    
-}
->>>>>>> 46f6a7e49b5a0b6cd98a744ba2207c4353d93a2a
