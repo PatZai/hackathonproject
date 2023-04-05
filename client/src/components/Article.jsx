@@ -23,7 +23,14 @@ const Article = () => {
             hic, quod accusantium nihil?
           </p>
         </div>
+<<<<<<< HEAD
       </div>
     </div>
   );
 };
+=======
+    )
+}
+
+export default Article;
+>>>>>>> 46f6a7e49b5a0b6cd98a744ba2207c4353d93a2a
