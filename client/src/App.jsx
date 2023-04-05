@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage';
 import RegisterPage from './pages/RegisterPage';
 import ArticlePage from './pages/ArticlePage';
 import ForumPage from './pages/ForumPage';
+import SurveyPage from './pages/SurveyPage';
 
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import {HashRouter, Route,Routes } from 'react-router-dom';
@@ -19,6 +20,8 @@ function App() {
 				<Route path="/Register" element={<RegisterPage />} />
 				<Route path="/Forum" element={<ForumPage />} />
 				<Route path="/Articles" element={<ArticlePage />} />
+				<Route path="/Survey" element={<SurveyPage />} />
+
 				
 				</Routes>
 			{/* </div> */}

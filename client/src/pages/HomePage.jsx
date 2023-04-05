@@ -1,12 +1,13 @@
 import FooterComponent from '../components/Footers';
 import NavbarList from '../components/NavbarList';
 import CardList from '../components/CardList';
+import Header from '../components/Header';
 
 const HomePage = () => {
 	return (
 		<>
 			<NavbarList />
-			<CardList/>
+			<Header/>
 			<CardList/>
 			<FooterComponent />
 		</>

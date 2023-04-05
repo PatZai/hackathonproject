@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Header from './Header';
-import Question from './Question';
-import Result from './Result';
+// import Header from './Header';
+// import Question from './Question';
+// import Result from './Result';
 
 const Survey = () => {
   const [step, setStep] = useState(1);

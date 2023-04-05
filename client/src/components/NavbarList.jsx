@@ -11,12 +11,13 @@ const NavbarList = () => {
 						Your <b>Website</b>
 					</Link>
 					<ul class="links">
-						
-						<li><Link className="linky" to="/Forum">
+						<li>
+							<Link className="linky" to="/Forum">
 								Forum
 							</Link>
 						</li>
-						<li><Link className="linky" to="/Articles">
+						<li>
+							<Link className="linky" to="/Articles">
 								Articles
 							</Link>
 						</li>
@@ -26,13 +27,10 @@ const NavbarList = () => {
 							</Link>
 						</li>
 						<li>
-							<Link className = "linky"to="/Register">
+							<Link className="linky" to="/Register">
 								Register
 							</Link>
 						</li>
-						
-						
-						
 					</ul>
 				</div>
 				{/* <div class="info">
@@ -44,7 +42,7 @@ const NavbarList = () => {
 					<button>Button name</button>
 				</div>
 				<div class="image">
-					<img src="https://i.postimg.cc/65QxYYzh/001234.png" alt="random"/>
+					<img src="https://i.postimg.cc/65QxYYzh/001234.png" alt="random" />
 				</div> */}
 				<div class="clearfix"></div>
 			</div>
