@@ -108,3 +108,5 @@ const Thread = () => {
     </div>
     )
 }
+
+export default Thread;
