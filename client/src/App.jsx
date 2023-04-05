@@ -14,6 +14,8 @@ function App() {
 			{/* <div> */}
 				<Route path="/" element={<HomePage />} />
 				<Route path="/Register" element={<RegisterPage />} />
+				{/* <Route path="/Forum" element={<ForumPage />} /> */}
+				<Route path="/Article" element={<ArticlePage />} />
 				
 				</Routes>
 			{/* </div> */}
