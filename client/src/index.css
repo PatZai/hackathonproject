@@ -651,7 +651,7 @@ body{
     top: 100px;
     height: 100vh;
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
 }
 .banner-area h2{
     padding-top: 8%;
@@ -670,7 +670,7 @@ body{
 .content-area{
     width: 100%;
     height: 800px;
-    position: relative;
+    /* position: relative; */
     background-color: rgb(255, 255, 255);
     top: 550px;
 }
