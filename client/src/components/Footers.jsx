@@ -1,9 +1,8 @@
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const FooterComponent =()=> {
+const FooterComponent = () => {
 	return (
-		<div>
+		<footer>
 			{/* <!-- partial:index.partial.html --> */}
 			<footer id="footer" class="footer-1">
 				<div class="main-footer widgets-dark typo-light">
@@ -137,9 +136,10 @@ const FooterComponent =()=> {
 				</div>
 			</footer>
 			{/* <!-- partial --> */}
-			<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script><script  src="./script.js"></script>
-		</div>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+			<script src="./script.js"></script>
+		</footer>
 	);
-}
+};
 
 export default FooterComponent;
