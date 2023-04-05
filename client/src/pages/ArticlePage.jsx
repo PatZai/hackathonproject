@@ -1,5 +1,5 @@
 import Article from "../components/Article/Article";
-import NavbarList from "../components/NavbarList";
+import NavbarList from "../components/Navbar/NavbarList";
 import Footers from "../components/Footers/Footers";
 
 const ArticlePage = () => {

@@ -1,24 +1,4 @@
 
-/* navbarlist */
-
-* {
-	box-sizing: border-box;
-}
-
-body {
-	font-family: 'Open Sans', sans-serif;
-}
-
-.container {
-	width: 1170px;
-	padding-right: 15px;
-	padding-left: 15px;
-	margin: auto;
-}
-
-
-
-
 .linky {
 	/* display: inline-block;
 	margin-left: 30px;

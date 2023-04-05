@@ -1,4 +1,4 @@
-import NavbarList from '../components/NavbarList';
+import NavbarList from '../components/Navbar/NavbarList';
 import Footers from '../components/Footers/Footers';
 import Survey from '../components/Survey';
 

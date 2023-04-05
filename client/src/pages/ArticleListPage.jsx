@@ -1,5 +1,5 @@
 import FooterComponent from '../components/Footers/Footers';
-import NavbarList from '../components/NavbarList';
+import NavbarList from '../components/Navbar/NavbarList';
 import ArticleList from '../components/ArticleList';
 
 const ArticleListPage = () => {
