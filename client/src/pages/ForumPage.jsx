@@ -1,6 +1,6 @@
 import Forum from "../components/Forum";
 
-const Forum = () => {
+ Forum = () => {
     return (
         <Forum />
     )
