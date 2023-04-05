@@ -1,12 +1,12 @@
 
 
 {/* <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet"> */}
+import React from 'react';
+import { Link } from "react-router-dom";
 
 
 
- import React from 'react';
-
- const  Forum ()=>{
+const  ForumList =()=>{
   return(
     <div class="container">
     <div class="row">
@@ -59,7 +59,7 @@
     <div class="row align-items-center">
     <div class="col-md-8 mb-3 mb-sm-0">
     <h5>
-     <a href="#" class="text-primary">HELP! My Windows XP machine is down</a>
+     <Link to="#" class="text-primary">HELP! My Windows XP machine is down</Link>
     </h5>
     <p class="text-sm"><span class="op-6">Posted</span> <a class="text-black" href="#">54 minutes</a> <span class="op-6">ago by</span> <a class="text-black" href="#">DanielD</a></p>
     <div class="text-sm op-5"> <a class="text-black mr-2" href="#">#Development</a> <a class="text-black mr-2" href="#">#AppStrap Theme</a> </div>
@@ -102,35 +102,35 @@
     <h4 class="px-3 py-4 op-5 m-0">
     Active Topics
     </h4>
-    <hr class="m-0">
+    <hr class="m-0"/>
     <div class="pos-relative px-3 py-3">
     <h6 class="text-primary text-sm">
     <a href="#" class="text-primary">Why Bootstrap 4 is so awesome? </a>
     </h6>
     <p class="mb-0 text-sm"><span class="op-6">Posted</span> <a class="text-black" href="#">39 minutes</a> <span class="op-6">ago by</span> <a class="text-black" href="#">AppStrapMaster</a></p>
     </div>
-    <hr class="m-0">
+    <hr class="m-0"/>
     <div class="pos-relative px-3 py-3">
     <h6 class="text-primary text-sm">
     <a href="#" class="text-primary">Custom shortcut or command to launch command in terminal? </a>
     </h6>
     <p class="mb-0 text-sm"><span class="op-6">Posted</span> <a class="text-black" href="#">58 minutes</a> <span class="op-6">ago by</span> <a class="text-black" href="#">DanielD</a></p>
     </div>
-    <hr class="m-0">
+    <hr class="m-0"/>
     <div class="pos-relative px-3 py-3">
     <h6 class="text-primary text-sm">
     <a href="#" class="text-primary">HELP! My Windows XP machine is down </a>
     </h6>
     <p class="mb-0 text-sm"><span class="op-6">Posted</span> <a class="text-black" href="#">48 minutes</a> <span class="op-6">ago by</span> <a class="text-black" href="#">DanielD</a></p>
     </div>
-    <hr class="m-0">
+    <hr class="m-0"/>
     <div class="pos-relative px-3 py-3">
     <h6 class="text-primary text-sm">
     <a href="#" class="text-primary">HELP! My Windows XP machine is down </a>
     </h6>
     <p class="mb-0 text-sm"><span class="op-6">Posted</span> <a class="text-black" href="#">38 minutes</a> <span class="op-6">ago by</span> <a class="text-black" href="#">DanielD</a></p>
     </div>
-    <hr class="m-0">
+    <hr class="m-0"/>
     </div>
     <div class="bg-white text-sm">
     </div>
@@ -138,11 +138,14 @@
     </div></div>
     </div>
     </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    
+    
+    {/* <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript">
+    <script type="text/javascript"> */}
       
-    </script>
+    
   )
- }
+}
+
+export default ForumList;

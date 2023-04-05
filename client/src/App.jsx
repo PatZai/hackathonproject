@@ -14,6 +14,7 @@ function App() {
 			{/* <div> */}
 				<Route path="/" element={<HomePage />} />
 				<Route path="/Register" element={<RegisterPage />} />
+				
 				</Routes>
 			{/* </div> */}
 		</HashRouter>

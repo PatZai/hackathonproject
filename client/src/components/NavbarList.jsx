@@ -13,12 +13,12 @@ const NavbarList = () => {
 					<ul class="links">
 						<li><Link className="linky" to="/">Home</Link></li>
 						<li><Link className="linky" to="/Register">Login</Link></li>
-						<li>Work</li>
-						<li>Info</li>
+						<li>Forum</li>
+						<li>Articles</li>
 						<li>Get Started</li>
 					</ul>
 				</div>
-				<div class="info">
+				{/* <div class="info">
 					<h1>Looking For Inspiration</h1>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
@@ -28,7 +28,7 @@ const NavbarList = () => {
 				</div>
 				<div class="image">
 					<img src="https://i.postimg.cc/65QxYYzh/001234.png" alt="random"/>
-				</div>
+				</div> */}
 				<div class="clearfix"></div>
 			</div>
 		</div>
