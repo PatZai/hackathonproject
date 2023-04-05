@@ -50,30 +50,30 @@ const ForumList = () => {
 						<div class="row align-items-center">
 							<div class="col-md-8 mb-3 mb-sm-0">
 								<h5>
-									<a href="#" class="text-primary">
+									<a href=" " class="text-primary">
 										Drupal 8 quick starter guide
 									</a>
 								</h5>
 								<p class="text-sm">
 									<span class="op-6">Posted</span>{' '}
-									<a class="text-black" href="#">
+									<a class="text-black" href=" ">
 										20 minutes
 									</a>{' '}
 									<span class="op-6">ago by</span>{' '}
-									<a class="text-black" href="#">
+									<a class="text-black" href=" ">
 										KenyeW
 									</a>
 								</p>
 								<div class="text-sm op-5">
 									{' '}
-									<a class="text-black mr-2" href="#">
-										#C++
+									<a class="text-black mr-2" href=" ">
+										 C++
 									</a>{' '}
-									<a class="text-black mr-2" href="#">
-										#AppStrap Theme
+									<a class="text-black mr-2" href=" ">
+										 AppStrap Theme
 									</a>{' '}
-									<a class="text-black mr-2" href="#">
-										#Wordpress
+									<a class="text-black mr-2" href=" ">
+										 Wordpress
 									</a>{' '}
 								</div>
 							</div>
@@ -103,27 +103,27 @@ const ForumList = () => {
 						<div class="row align-items-center">
 							<div class="col-md-8 mb-3 mb-sm-0">
 								<h5>
-									<Link to="#" class="text-primary">
+									<Link to=" " class="text-primary">
 										HELP! My Windows XP machine is down
 									</Link>
 								</h5>
 								<p class="text-sm">
 									<span class="op-6">Posted</span>{' '}
-									<a class="text-black" href="#">
+									<a class="text-black" href=" ">
 										54 minutes
 									</a>{' '}
 									<span class="op-6">ago by</span>{' '}
-									<a class="text-black" href="#">
+									<a class="text-black" href=" ">
 										DanielD
 									</a>
 								</p>
 								<div class="text-sm op-5">
 									{' '}
-									<a class="text-black mr-2" href="#">
-										#Development
+									<a class="text-black mr-2" href=" ">
+										 Development
 									</a>{' '}
-									<a class="text-black mr-2" href="#">
-										#AppStrap Theme
+									<a class="text-black mr-2" href=" ">
+										 AppStrap Theme
 									</a>{' '}
 								</div>
 							</div>
@@ -153,34 +153,34 @@ const ForumList = () => {
 						<div class="row align-items-center">
 							<div class="col-md-8 mb-3 mb-sm-0">
 								<h5>
-									<a href="#" class="text-primary">
+									<a href=" " class="text-primary">
 										Bootstrap 4 development in record time with AppStrap
 										Bootstrap 4 Theme
 									</a>
 								</h5>
 								<p class="text-sm">
 									<span class="op-6">Posted</span>{' '}
-									<a class="text-black" href="#">
+									<a class="text-black" href=" ">
 										26 minutes
 									</a>{' '}
 									<span class="op-6">ago by</span>{' '}
-									<a class="text-black" href="#">
+									<a class="text-black" href=" ">
 										Themelize.me
 									</a>
 								</p>
 								<div class="text-sm op-5">
 									{' '}
-									<a class="text-black mr-2" href="#">
-										#Development
+									<a class="text-black mr-2" href=" ">
+										 Development
 									</a>{' '}
-									<a class="text-black mr-2" href="#">
-										#iOS
+									<a class="text-black mr-2" href=" ">
+										 iOS
 									</a>{' '}
-									<a class="text-black mr-2" href="#">
-										#Bootstrap 4
+									<a class="text-black mr-2" href=" ">
+										 Bootstrap 4
 									</a>{' '}
-									<a class="text-black mr-2" href="#">
-										#Wordpress
+									<a class="text-black mr-2" href=" ">
+										 Wordpress
 									</a>{' '}
 								</div>
 							</div>
@@ -210,7 +210,7 @@ const ForumList = () => {
 				<div class="col-lg-3 mb-4 mb-lg-0 px-lg-0 mt-lg-0">
 					<div style={"visibility: hidden; display: none; width: 285px; height: 801px; margin: 0px; float: none; position: static; inset: 85px auto auto;"}></div>
 					<div
-						data-settings='{"parent":"#content","mind":"#header","top":10,"breakpoint":992}'
+						data-settings='{"parent":" content","mind":" header","top":10,"breakpoint":992}'
 						data-toggle="sticky"
 						class="sticky"
 						style={"top: 85px;"}
@@ -218,7 +218,7 @@ const ForumList = () => {
 						<div class="sticky-inner">
 							<a
 								class="btn btn-lg btn-block btn-success rounded-0 py-4 mb-3 bg-op-6 roboto-bold"
-								href="#"
+								href=" "
 							>
 								Ask Question
 							</a>
@@ -227,17 +227,17 @@ const ForumList = () => {
 								<hr class="m-0" />
 								<div class="pos-relative px-3 py-3">
 									<h6 class="text-primary text-sm">
-										<a href="#" class="text-primary">
+										<a href=" " class="text-primary">
 											Why Bootstrap 4 is so awesome?{' '}
 										</a>
 									</h6>
 									<p class="mb-0 text-sm">
 										<span class="op-6">Posted</span>{' '}
-										<a class="text-black" href="#">
+										<a class="text-black" href=" ">
 											39 minutes
 										</a>{' '}
 										<span class="op-6">ago by</span>{' '}
-										<a class="text-black" href="#">
+										<a class="text-black" href=" ">
 											AppStrapMaster
 										</a>
 									</p>
@@ -245,17 +245,17 @@ const ForumList = () => {
 								<hr class="m-0" />
 								<div class="pos-relative px-3 py-3">
 									<h6 class="text-primary text-sm">
-										<a href="#" class="text-primary">
+										<a href=" " class="text-primary">
 											Custom shortcut or command to launch command in terminal?{' '}
 										</a>
 									</h6>
 									<p class="mb-0 text-sm">
 										<span class="op-6">Posted</span>{' '}
-										<a class="text-black" href="#">
+										<a class="text-black" href=" ">
 											58 minutes
 										</a>{' '}
 										<span class="op-6">ago by</span>{' '}
-										<a class="text-black" href="#">
+										<a class="text-black" href=" ">
 											DanielD
 										</a>
 									</p>
@@ -263,17 +263,17 @@ const ForumList = () => {
 								<hr class="m-0" />
 								<div class="pos-relative px-3 py-3">
 									<h6 class="text-primary text-sm">
-										<a href="#" class="text-primary">
+										<a href=" " class="text-primary">
 											HELP! My Windows XP machine is down{' '}
 										</a>
 									</h6>
 									<p class="mb-0 text-sm">
 										<span class="op-6">Posted</span>{' '}
-										<a class="text-black" href="#">
+										<a class="text-black" href=" ">
 											48 minutes
 										</a>{' '}
 										<span class="op-6">ago by</span>{' '}
-										<a class="text-black" href="#">
+										<a class="text-black" href=" ">
 											DanielD
 										</a>
 									</p>
@@ -281,17 +281,17 @@ const ForumList = () => {
 								<hr class="m-0" />
 								<div class="pos-relative px-3 py-3">
 									<h6 class="text-primary text-sm">
-										<a href="#" class="text-primary">
+										<a href=" " class="text-primary">
 											HELP! My Windows XP machine is down{' '}
 										</a>
 									</h6>
 									<p class="mb-0 text-sm">
 										<span class="op-6">Posted</span>{' '}
-										<a class="text-black" href="#">
+										<a class="text-black" href=" ">
 											38 minutes
 										</a>{' '}
 										<span class="op-6">ago by</span>{' '}
-										<a class="text-black" href="#">
+										<a class="text-black" href=" ">
 											DanielD
 										</a>
 									</p>
@@ -305,11 +305,11 @@ const ForumList = () => {
 			</div>
 		</div>
 	);
-	{
+	
 		/* <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript"> */
-	}
+	
 };
 
 export default ForumList;
