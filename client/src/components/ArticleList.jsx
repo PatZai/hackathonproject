@@ -1,4 +1,4 @@
-const Thread = () => {
+const ArticleList = () => {
 	return (
 		<div>
 			<div class="wrapper">
