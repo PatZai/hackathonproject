@@ -62,7 +62,7 @@ const FooterComponent = () => {
 								</div>
 							</div>
 
-							<div class="col-xs-12 col-sm-6 col-md-3">
+							{/* <div class="col-xs-12 col-sm-6 col-md-3">
 								<div class="widget no-box">
 									<h5 class="widget-title">
 										Get Started<span></span>
@@ -72,9 +72,9 @@ const FooterComponent = () => {
 										Subscribe Now
 									</a>
 								</div>
-							</div>
+							</div> */}
 
-							<div class="col-xs-12 col-sm-6 col-md-3">
+							{/* <div class="col-xs-12 col-sm-6 col-md-3">
 								<div class="widget no-box">
 									<h5 class="widget-title">
 										Contact Us<span></span>
@@ -96,6 +96,7 @@ const FooterComponent = () => {
 												href="https://www.facebook.com/"
 												target="_blank"
 												title="Facebook"
+												rel="noreferrer"
 											>
 												<img alt="Facebook" width="30" height="30" src="" />
 											</a>
@@ -105,6 +106,7 @@ const FooterComponent = () => {
 												href="https://twitter.com"
 												target="_blank"
 												title="Twitter"
+												rel="noreferrer"
 											>
 												<img alt="Twitter" width="30" height="30" src="" />
 											</a>
@@ -114,13 +116,14 @@ const FooterComponent = () => {
 												title="instagram"
 												target="_blank"
 												href="https://www.instagram.com/"
+												rel="noreferrer"
 											>
 												<img alt="instagram" width="30" height="30" src="" />
 											</a>
 										</li>
 									</ul>
 								</div>
-							</div>
+							</div> */}
 						</div>
 					</div>
 				</div>

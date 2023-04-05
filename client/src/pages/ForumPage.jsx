@@ -1,8 +1,14 @@
 import Forum from "../components/Forum";
+import NavbarList from "../components/NavbarList";
+import Footers from "../components/Footers";
 
-const Forum = () => {
+ Forum = () => {
     return (
+        <>
+        <NavbarList />
         <Forum />
+        <Footers />
+        </>
     )
 }
 

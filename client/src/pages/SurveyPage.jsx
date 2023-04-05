@@ -1,9 +1,2 @@
-import Survey from "../components/Survey";
-
-const Survey = () => {
-    return (
-        <Survey />
-    )
-}
-
-export default SurveyPage;
+// import NavbarList from "../components/NavbarList";
+// import Footers from "../components/Footers";
