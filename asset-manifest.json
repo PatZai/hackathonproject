@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/hackathonproject/static/css/main.a3fb9247.css",
-    "main.js": "/hackathonproject/static/js/main.c6d1c28c.js",
+    "main.css": "/hackathonproject/static/css/main.148d0f1b.css",
+    "main.js": "/hackathonproject/static/js/main.a6f4fbe7.js",
     "index.html": "/hackathonproject/index.html",
-    "main.a3fb9247.css.map": "/hackathonproject/static/css/main.a3fb9247.css.map",
-    "main.c6d1c28c.js.map": "/hackathonproject/static/js/main.c6d1c28c.js.map"
+    "main.148d0f1b.css.map": "/hackathonproject/static/css/main.148d0f1b.css.map",
+    "main.a6f4fbe7.js.map": "/hackathonproject/static/js/main.a6f4fbe7.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3fb9247.css",
-    "static/js/main.c6d1c28c.js"
+    "static/css/main.148d0f1b.css",
+    "static/js/main.a6f4fbe7.js"
   ]
 }
