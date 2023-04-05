@@ -2,6 +2,7 @@ import React from 'react';
 // import './App.css';
 import HomePage from './pages/HomePage';
 import RegisterPage from './pages/RegisterPage';
+import ArticlePage from './pages/ArticlePage';
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import {HashRouter, Route,Routes } from 'react-router-dom';
 
@@ -15,7 +16,7 @@ function App() {
 				<Route path="/" element={<HomePage />} />
 				<Route path="/Register" element={<RegisterPage />} />
 				{/* <Route path="/Forum" element={<ForumPage />} /> */}
-				<Route path="/Article" element={<ArticlePage />} />
+				<Route path="/Articles" element={<ArticlePage />} />
 				
 				</Routes>
 			{/* </div> */}
