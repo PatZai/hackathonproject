@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "./style.css"
 const CardList = () => {
 	return (
 		// <!-- partial:index.partial.html -->

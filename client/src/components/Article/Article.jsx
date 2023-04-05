@@ -1,4 +1,6 @@
+import "./style.css";
 const Article = () => {
+
   return (
     <div>
       <div className="banner-area">

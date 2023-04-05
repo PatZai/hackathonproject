@@ -1,6 +1,6 @@
 import NavbarList from "../components/NavbarList";
 import Thread from "../components/Thread";
-import Footers from "../components/Footers";
+import Footers from "../components/Footers/Footers";
 
 const ThreadPage = () => {
     return (

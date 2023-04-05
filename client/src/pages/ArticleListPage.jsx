@@ -1,4 +1,4 @@
-import FooterComponent from '../components/Footers';
+import FooterComponent from '../components/Footers/Footers';
 import NavbarList from '../components/NavbarList';
 import ArticleList from '../components/ArticleList';
 

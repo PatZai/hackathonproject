@@ -1,5 +1,5 @@
 import NavbarList from '../components/NavbarList';
-import Footers from '../components/Footers';
+import Footers from '../components/Footers/Footers';
 import Survey from '../components/Survey';
 
 import React from 'react';

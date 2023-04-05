@@ -1,5 +1,5 @@
 
-import RegisterList from '../components/RegisterList';
+import RegisterList from '../components/Register/RegisterList';
 
 const RegisterPage = () => {
 	return (
