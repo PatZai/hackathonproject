@@ -14,10 +14,12 @@ const NavbarList = () => {
 						
 						<li><Link className="linky" to="/Forum">
 								Forum
-							</Link></li>
+							</Link>
+						</li>
 						<li><Link className="linky" to="/Articles">
 								Articles
-							</Link></li>
+							</Link>
+						</li>
 						<li>
 							<Link className="linky" to="/AbousUs">
 								About Us
@@ -25,7 +27,7 @@ const NavbarList = () => {
 						</li>
 						<li>
 							<Link className = "linky"to="/Register">
-								Login
+								Register
 							</Link>
 						</li>
 						
