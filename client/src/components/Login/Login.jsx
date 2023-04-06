@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./style.css";
 
 export const Login = (props) => {
   const [email, setEmail] = useState("");
@@ -10,6 +11,7 @@ export const Login = (props) => {
   };
 
   return (
+    <div className="login">
     <div className="auth-form-container">
       <h2>Login</h2>
       <form className="login-form" onSubmit={handleSubmit}>
@@ -40,5 +42,8 @@ export const Login = (props) => {
         Don't have an account? Register here.
       </button>
     </div>
+    </div>
   );
 };
+
+export default Login;

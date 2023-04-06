@@ -1,33 +1,30 @@
-import React from 'react';
-// import './App.css';
-import HomePage from './pages/HomePage';
-import RegisterPage from './pages/RegisterPage';
-import ArticlePage from './pages/ArticlePage';
-import ForumPage from './pages/ForumPage';
-import SurveyPage from './pages/SurveyPage';
+import React from "react";
+import "./App.css";
+import HomePage from "./pages/HomePage";
+import LoginPage from "./pages/LoginPage";
+import ArticlePage from "./pages/ArticlePage";
+import ForumPage from "./pages/ForumPage";
+import SurveyPage from "./pages/SurveyPage";
 
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import {HashRouter, Route,Routes } from 'react-router-dom';
-
+import { HashRouter, Route, Routes } from "react-router-dom";
 
 function App() {
-	return (
-		// <Router>
-		<HashRouter>
-			<Routes>
-			{/* <div> */}
-				<Route path="/" element={<HomePage />} />
-				<Route path="/Register" element={<RegisterPage />} />
-				<Route path="/Forum" element={<ForumPage />} />
-				<Route path="/Articles" element={<ArticlePage />} />
-				<Route path="/Survey" element={<SurveyPage />} />
-
-				
-				</Routes>
-			{/* </div> */}
-		</HashRouter>
-		// </Router>
-	);
+  return (
+    // <Router>
+    <HashRouter>
+      <Routes>
+        {/* <div> */}
+        <Route path="/" element={<HomePage />} />
+        <Route path="/Login" element={<LoginPage />} />
+        <Route path="/Forum" element={<ForumPage />} />
+        <Route path="/Articles" element={<ArticlePage />} />
+        <Route path="/Survey" element={<SurveyPage />} />
+      </Routes>
+      {/* </div> */}
+    </HashRouter>
+    // </Router>
+  );
 }
 
 export default App;

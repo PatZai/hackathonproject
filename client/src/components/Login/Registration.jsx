@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./style.css"
 
 export const Register = (props) => {
   const [email, setEmail] = useState("");
@@ -11,6 +12,7 @@ export const Register = (props) => {
   };
 
   return (
+    <div className="register">
     <div className="auth-form-container">
       <h2>Register</h2>
       <form className="register-form" onSubmit={handleSubmit}>
@@ -46,5 +48,8 @@ export const Register = (props) => {
         Already have an account? Login here.
       </button>
     </div>
+    </div>
   );
 };
+
+export default Register;
