@@ -10,15 +10,13 @@ import AnxietyPage from "./pages/AnxietyPage";
 import TraumaPage from "./pages/TraumaPage";
 import PhobiasPage from "./pages/PhobiasPage";
 
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { HashRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    // <Router>
+    
     <HashRouter>
       <Routes>
-        {/* <div> */}
         <Route path="/" element={<HomePage />} />
         <Route path="/Login" element={<LoginPage />} />
         <Route path="/Forum" element={<ForumPage />} />
@@ -29,9 +27,7 @@ function App() {
         <Route path="/Trauma" element={<TraumaPage />} />
         <Route path="/Phobias" element={<PhobiasPage />} />
       </Routes>
-      {/* </div> */}
     </HashRouter>
-    // </Router>
   );
 }
 
