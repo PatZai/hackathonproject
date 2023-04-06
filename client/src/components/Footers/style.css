@@ -3,9 +3,18 @@
 ====================== */
 
 /* Main Footer */
+/* footer {
+	position: auto;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: auto; /* height of the footer 
+} */
+
 footer .main-footer {
 	padding: 20px 0;
 	background: #252525;
+	
 }
 footer ul {
 	padding-left: 0;
@@ -14,7 +23,6 @@ footer ul {
 a {
 	text-decoration: none;
 }
-
 
 /* Copy Right Footer */
 .footer-copyright {
