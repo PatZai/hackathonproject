@@ -1,0 +1,54 @@
+.title-info{
+    background-color: rgb(125, 187, 84);
+    width: 100%;
+    border: black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+.article1{
+    background-color: rgb(194, 215, 95);
+    width: 90%;
+    padding: 10px;
+    padding-bottom: 20px;
+    border: none;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.article-image{
+    width: 200px;
+    float: left;
+    background-color: white;
+}
+
+a{
+    padding-left: 20px;
+}
+
+p{
+    padding-left: 220px;
+}
+
+.article-box{
+    padding: 10px;
+    margin-left: 8%;
+}
+
+.m-0{
+    color: rgb(119, 171, 95);
+}
+
+.wrapper{
+    width: 100%;
+    position: fixed;
+    z-index: 1100;
+}
