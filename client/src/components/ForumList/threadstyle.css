@@ -3,7 +3,7 @@
 }
 
 .comment-info{
-    background-color: green;
+    background-color: rgb(144, 199, 110);
     width: 100%;
     border: black;
     color: rgb(0, 0, 0);
@@ -11,6 +11,7 @@
     font-weight: bold;
     font-size: 16px;
     text-align: left;
+    padding: 5px;
     /* padding-left: 20px;
     padding-bottom: 20px;
     padding-top: 20px; */
@@ -18,7 +19,7 @@
 
 
 .comment1{
-    background-color: white;
+    background-color: rgb(199, 228, 149);
     width: 90%;
     padding: 10px;
     border: none;
@@ -46,9 +47,10 @@
     margin-right: 10px;
 }
 
-a{
+a.comment-author{
     padding-left: 5px;
-    color: white;
+    text-decoration: none;
+    color: rgb(73, 73, 73);
 }
 
 .comment-thread{
@@ -65,10 +67,29 @@ a{
     text-align: left;
 }
 
-button {
-    margin: auto 8px;
-    background-color: green;
+.button {
+    margin: auto 4px;
+    background-color: rgb(144, 199, 110);
     border-radius: 10px;
     padding: 3px 5px;
-    color: white;
+    color: rgb(255, 255, 255);
+}
+
+p{
+    margin-left: 70px;
+    padding-top: 10px;
+    color: rgb(40, 40, 40);
+    font-size: 14px;
+}
+
+.m-0{
+    color: rgb(162, 162, 162);
+    padding: 0px 0px 5px 5px;
+}
+
+.home-title{
+    background-color: rgb(220, 255, 188);
+    color: rgb(148, 148, 148);
+    margin: 0px 0px 10px 0px;
+    padding: 10px 10px 10px 10px;
 }

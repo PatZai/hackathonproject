@@ -2,6 +2,10 @@
 
 .cards-title h1 {
 	text-align: center;
+	background-color: rgb(220, 255, 188);
+    color: rgb(148, 148, 148);
+    margin: 0px 0px 0px 0px;
+    padding: 10px 10px 10px 10px;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap');
@@ -17,7 +21,7 @@
 	grid-gap: 1rem;
 	padding: 1rem;
 	max-width: 1024px;
-	margin: 100px auto;
+	margin: 50px auto;
 	font-family: var(--font-sans);
 }
 @media (min-width: 600px) {
@@ -131,6 +135,8 @@
 	font-size: 1.125rem;
 	font-style: italic;
 	line-height: 1.35;
+	color: white;
+	margin-left: 0px;
 }
 
 .btn {

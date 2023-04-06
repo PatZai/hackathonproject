@@ -6,7 +6,7 @@ const TrendingThread = () => {
             <div className='home-title'>
                 <h1>Community Forum</h1>
             </div>
-            <div>
+            <div className='thread-div'>
                 <div class="comment-thread">
                     <div class="comment1" id="comment-1">
                         <div class="comment-heading">
@@ -18,18 +18,18 @@ const TrendingThread = () => {
 
                         <div class="comment-body">
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, voluptatum. Quae animi, ipsum illum accusamus eligendi incidunt, sapiente quia itaque natus aut cum exercitationem cupiditate velit. Vitae vel expedita unde.
+                            What’s it like to talk to a professional? Sometimes I try to be open but I get shivers down my spine. It’s made me really anxious about approaching people.
                             </p>
                             <div class="comment-voting">
                                 <p class="m-0">
-                                    xx points &bull; x days ago
+                                    23 points &bull; 5 days ago
                                 </p>
-                                <button type="button">
+                                <button type="button" className='button'>
                                     <span aria-hidden="true">&#9650;</span>
                                     <span class="sr-only">Like</span>
                                 </button>
-                                <button type="button">Reply</button>
-                                <button type="button">Flag</button>
+                                <button type="button" className='button'>Reply</button>
+                                <button type="button" className='button'>Flag</button>
                             </div>
                         </div>
                     </div>
@@ -46,18 +46,18 @@ const TrendingThread = () => {
 
                         <div class="comment-body">
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, voluptatum. Quae animi, ipsum illum accusamus eligendi incidunt, sapiente quia itaque natus aut cum exercitationem cupiditate velit. Vitae vel expedita unde.
+                            Are there more ways to be able to help people with depression aside from being there to listen and just being a good friend?
                             </p>
                             <div class="comment-voting">
                                 <p class="m-0">
-                                    xx points &bull; x days ago
+                                    96 points &bull; 4 days ago
                                 </p>
-                                <button type="button">
+                                <button type="button" className='button'>
                                     <span aria-hidden="true">&#9650;</span>
                                     <span class="sr-only">Like</span>
                                 </button>
-                                <button type="button">Reply</button>
-                                <button type="button">Flag</button>
+                                <button type="button" className='button'>Reply</button>
+                                <button type="button" className='button'>Flag</button>
                             </div>
                         </div>
                     </div>
@@ -73,18 +73,18 @@ const TrendingThread = () => {
 
                         <div class="comment-body">
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, voluptatum. Quae animi, ipsum illum accusamus eligendi incidunt, sapiente quia itaque natus aut cum exercitationem cupiditate velit. Vitae vel expedita unde.
+                            Is medication a good idea? I’m scared of the side effects but even more scared of what’s going to happen if it doesn’t work.
                             </p>
                             <div class="comment-voting">
                                 <p class="m-0">
-                                    xx points &bull; x days ago
+                                    19 points &bull; 3 days ago
                                 </p>
-                                <button type="button">
+                                <button type="button" className='button'>
                                     <span aria-hidden="true">&#9650;</span>
                                     <span class="sr-only">Like</span>
                                 </button>
-                                <button type="button">Reply</button>
-                                <button type="button">Flag</button>
+                                <button type="button" className='button'>Reply</button>
+                                <button type="button" className='button'>Flag</button>
 
                             </div>
                         </div>
