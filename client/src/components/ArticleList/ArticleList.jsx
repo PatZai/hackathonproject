@@ -1,17 +1,18 @@
+
 const ArticleList = () => {
 	return (
 		<div>
 			<div class="wrapper">
 				<nav class="navbar navbar-expand-lg bg-body-tertiary">
 					<div class="container-fluid">
-						<a class="navbar-brand" href="#">
+						<a class="navbar-brand" href=" ">
 							Navbar
 						</a>
 						<button
 							class="navbar-toggler"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#navbarSupportedContent"
+							data-bs-target=" navbarSupportedContent"
 							aria-controls="navbarSupportedContent"
 							aria-expanded="false"
 							aria-label="Toggle navigation"
@@ -21,19 +22,19 @@ const ArticleList = () => {
 						<div class="collapse navbar-collapse" id="navbarSupportedContent">
 							<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 								<li class="nav-item">
-									<a class="nav-link active" aria-current="page" href="#">
+									<a class="nav-link active" aria-current="page" href=" ">
 										Home
 									</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#">
+									<a class="nav-link" href=" ">
 										Link
 									</a>
 								</li>
 								<li class="nav-item dropdown">
 									<a
 										class="nav-link dropdown-toggle"
-										href="#"
+										href=" "
 										role="button"
 										data-bs-toggle="dropdown"
 										aria-expanded="false"
@@ -42,12 +43,12 @@ const ArticleList = () => {
 									</a>
 									<ul class="dropdown-menu">
 										<li>
-											<a class="dropdown-item" href="#">
+											<a class="dropdown-item" href=" ">
 												Action
 											</a>
 										</li>
 										<li>
-											<a class="dropdown-item" href="#">
+											<a class="dropdown-item" href=" ">
 												Another action
 											</a>
 										</li>
@@ -55,14 +56,14 @@ const ArticleList = () => {
 											<hr class="dropdown-divider" />
 										</li>
 										<li>
-											<a class="dropdown-item" href="#">
+											<a class="dropdown-item" href=" ">
 												Something else here
 											</a>
 										</li>
 									</ul>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link disabled">Disabled</a>
+									<a class="nav-link disabled" href=' '>Disabled</a>
 								</li>
 							</ul>
 							<form class="d-flex" role="search">
@@ -88,7 +89,7 @@ const ArticleList = () => {
 							<img src="images/Snail.png" alt="test" class="article-image" />
 						</div>
 						<div class="title-info">
-							<a href="#" class="article-author">
+							<a href=" " class="article-author">
 								Article Title 1
 							</a>
 						</div>
@@ -113,7 +114,7 @@ const ArticleList = () => {
 								<img src="images/Snail.png" alt="test" class="article-image" />
 							</div>
 							<div class="title-info">
-								<a href="#" class="article-author">
+								<a href=" " class="article-author">
 									Article Title 2
 								</a>
 							</div>
@@ -139,7 +140,7 @@ const ArticleList = () => {
 								<img src="images/Snail.png" alt="test" class="article-image" />
 							</div>
 							<div class="title-info">
-								<a href="#" class="article-author">
+								<a href=" " class="article-author">
 									Article Title 3
 								</a>
 							</div>
@@ -165,7 +166,7 @@ const ArticleList = () => {
 								<img src="images/Snail.png" alt="test" class="article-image" />
 							</div>
 							<div class="title-info">
-								<a href="#" class="article-author">
+								<a href=" " class="article-author">
 									Article Title 4
 								</a>
 							</div>
