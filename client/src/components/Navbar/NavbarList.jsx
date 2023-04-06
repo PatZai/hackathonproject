@@ -13,9 +13,7 @@ const NavbarList = () => {
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-column flex-sm-row menu-item">
-      <li class="nav-item">
-          <Link class="nav-link active" aria-current="page" to="/Survey">Checker</Link>
-        </li>
+      
         <li class="nav-item">
           <Link class="nav-link active" aria-current="page" to="/Forum">Forum</Link>
         </li>
