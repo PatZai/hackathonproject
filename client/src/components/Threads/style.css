@@ -1,0 +1,56 @@
+.comment-info{
+    background-color: rgb(84, 239, 169);
+    width: 100%;
+    border: black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+.comment1{
+    background-color: rgb(188, 255, 220);
+    width: 90%;
+    padding: 10px;
+    border: none;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.comment2{
+    background-color: rgb(141, 255, 196);
+    width: 90%;
+    padding: 10px;
+    border: none;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 10%;
+}
+
+.pfp{
+    width: 60px;
+    float: left;
+}
+
+a{
+    padding-left: 5px;
+}
+
+.comment-thread{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-left: 8%;
+}
+
+.arrow{
+    float: left;
+    width: 80px;
+}

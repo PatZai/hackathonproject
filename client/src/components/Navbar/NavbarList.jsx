@@ -5,49 +5,30 @@ import "./style.css";
 
 const NavbarList = () => {
 	return (
-		<div class="landing-page">
-			<div class="container">
-				<div class="header-area">
-					<Link class="logo" to="/">
-						Your <b>Website</b>
-					</Link>
-					<ul class="links">
-						<li>
-							<Link className="linky" to="/Forum">
-								Forum
-							</Link>
-						</li>
-						<li>
-							<Link className="linky" to="/Articles">
-								Articles
-							</Link>
-						</li>
-						<li>
-							<Link className="linky" to="/AbousUs">
-								About Us
-							</Link>
-						</li>
-						<li>
-							<Link className="linky" to="/Register">
-								Register
-							</Link>
-						</li>
-					</ul>
-				</div>
-				{/* <div class="info">
-					<h1>Looking For Inspiration</h1>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-						odit nihil ullam nesciunt quidem iste, Repellendus odit nihil
-					</p>
-					<button>Button name</button>
-				</div>
-				<div class="image">
-					<img src="https://i.postimg.cc/65QxYYzh/001234.png" alt="random" />
-				</div> */}
-				<div class="clearfix"></div>
-			</div>
-		</div>
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid justify-content-between">
+    <Link class="navbar-brand" to="/"><img src="./images/Smaller_logo.png" alt="Logo" /></Link>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="  navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-column flex-sm-row menu-item">
+        <li class="nav-item">
+          <Link class="nav-link active" aria-current="page" to="/Forum">Forum</Link>
+        </li>
+        <li class="nav-item">
+          <Link class="nav-link" to="/Articles">Articles</Link>
+        </li>
+		<li class="nav-item">
+          <Link class="nav-link" to="/AboutPage">About</Link>
+        </li>
+		<li class="nav-item">
+          <Link class="nav-link" to="/Login">Login</Link>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 	);
 };
 
