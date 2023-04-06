@@ -6,9 +6,9 @@ const TrendingThread = () => {
             <div class="comment-thread">
                 <div class="comment1" id="comment-1">
                     <div class="comment-heading">
-                        <img src=" " alt="test" class="pfp" />
+                        <img src={require("../images/pfp.png")} alt="test" class="pfp" />
                         <div class="comment-info">
-                            <a href=" " class="comment-author">username1</a>
+                            <a href=" " class="comment-author">User</a>
                         </div>
                     </div>
 
@@ -22,14 +22,10 @@ const TrendingThread = () => {
                             </p>
                             <button type="button">
                                 <span aria-hidden="true">&#9650;</span>
-                                <span class="sr-only">Vote up</span>
+                                <span class="sr-only">Like</span>
                             </button>
-                            <button type="button">
-                                <span aria-hidden="true">&#9660;</span>
-                                <span class="sr-only">Vote down</span>
                                 <button type="button">Reply</button>
                                 <button type="button">Flag</button>
-                            </button>
                         </div>
                     </div>
                 </div>
@@ -38,9 +34,9 @@ const TrendingThread = () => {
             <div class="comment-thread">
                 <div class="comment1" id="comment-1">
                     <div class="comment-heading">
-                        <img src=" " alt="test" class="pfp" />
+                        <img src={require("../images/pfp.png")} alt="test" class="pfp" />
                         <div class="comment-info">
-                            <a href=" " class="comment-author">username1</a>
+                            <a href=" " class="comment-author">User</a>
                         </div>
                     </div>
 
@@ -54,14 +50,10 @@ const TrendingThread = () => {
                             </p>
                             <button type="button">
                                 <span aria-hidden="true">&#9650;</span>
-                                <span class="sr-only">Vote up</span>
+                                <span class="sr-only">Like</span>
                             </button>
-                            <button type="button">
-                                <span aria-hidden="true">&#9660;</span>
-                                <span class="sr-only">Vote down</span>
                                 <button type="button">Reply</button>
                                 <button type="button">Flag</button>
-                            </button>
                         </div>
                     </div>
                 </div>
@@ -69,9 +61,9 @@ const TrendingThread = () => {
             <div class="comment-thread">
                 <div class="comment1" id="comment-1">
                     <div class="comment-heading">
-                        <img src=" " alt="test" class="pfp" />
+                        <img src={require("../images/pfp.png")} alt="test" class="pfp" />
                         <div class="comment-info">
-                            <a href=" " class="comment-author">username1</a>
+                            <a href=" " class="comment-author">User</a>
                         </div>
                     </div>
 
@@ -85,16 +77,20 @@ const TrendingThread = () => {
                             </p>
                             <button type="button">
                                 <span aria-hidden="true">&#9650;</span>
-                                <span class="sr-only">Vote up</span>
+                                <span class="sr-only">Like</span>
                             </button>
-                            <button type="button">
-                                <span aria-hidden="true">&#9660;</span>
-                                <span class="sr-only">Vote down</span>
                                 <button type="button">Reply</button>
                                 <button type="button">Flag</button>
-                            </button>
+
                         </div>
                     </div>
+                </div>
+            </div>
+            <div>
+                <div className="thread-link">
+                    <a href=" ">
+                        <p>More threads here</p>
+                    </a>
                 </div>
             </div>
         </div>
