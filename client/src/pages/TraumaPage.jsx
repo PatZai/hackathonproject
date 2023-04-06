@@ -1,4 +1,4 @@
-import Depression from '../components/Depression/Depression'
+import Depression from '../components/Trauma/Trauma'
 import NavbarList from "../components/Navbar/NavbarList";
 import Footers from "../components/Footers/Footers";
 

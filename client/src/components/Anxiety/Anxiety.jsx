@@ -3,7 +3,7 @@ const Anxiety = () => {
 
   return (
     <div>
-      <div className="banner-area">
+      <div className="banner-area-anxiet">
         <h1>Anxiety</h1>
         <h3>and what it acutally is</h3>
       </div>

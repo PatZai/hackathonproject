@@ -1,7 +1,8 @@
-.banner-area {
+.banner-area-anxiet {
 	text-align: center;
 	margin: auto;
-	background-color: blue;
+	background-image: url(../images/Last_squiggly.png);
+	background-size: cover;
 	padding: 100px;
 }
 
@@ -10,4 +11,9 @@
 	margin: 50px auto;
 	padding-left: 15%;
 	padding-right: 15%;
+}
+
+.content-title{
+	background-color: rgb(221, 255, 191);
+	padding: 10px;
 }

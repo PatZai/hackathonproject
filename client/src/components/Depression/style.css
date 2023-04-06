@@ -1,7 +1,8 @@
-.banner-area {
+.banner-area-depress {
 	text-align: center;
 	margin: auto;
-	background-color: blue;
+	background-image: url(../images/More_squiggly.png);
+	background-size: cover;
 	padding: 100px;
 }
 

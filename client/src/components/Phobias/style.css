@@ -1,7 +1,7 @@
-.banner-area {
+.banner-area-phobia {
 	text-align: center;
 	margin: auto;
-	background-color: blue;
+	background-image: url(../images/Other_squiggly.png);
 	padding: 100px;
 }
 

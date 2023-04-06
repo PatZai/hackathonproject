@@ -3,7 +3,7 @@ const Article = () => {
 
   return (
     <div>
-      <div className="banner-area">
+      <div className="banner-area-phobia">
         <h1>Phobias</h1>
         <h3>and what it acutally is</h3>
       </div>
