@@ -1,6 +1,6 @@
 import FooterComponent from '../components/Footers/Footers';
 import NavbarList from '../components/Navbar/NavbarList';
-import ArticleList from '../components/ArticleList';
+import ArticleList from '../components/ArticleList/ArticleList';
 
 const ArticleListPage = () => {
     return (
