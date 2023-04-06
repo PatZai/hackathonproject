@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./style.css"
+import "./registerstyle.css"
 
 export const Register = (props) => {
   const [email, setEmail] = useState("");
@@ -44,7 +44,7 @@ export const Register = (props) => {
         />
         <button type="submit">Register</button>
       </form>
-      <button className="link-btn" onClick={() => props.onFormSwitch("login")}>
+      <button className="link-btn" onClick={() => props.onFormSwitch("/Login")}>
         Already have an account? Login here.
       </button>
     </div>

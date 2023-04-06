@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import './style.css';
+import { Link } from 'react-router-dom';
+import './registerstyle.css';
 
 export const Login = (props) => {
 	const [email, setEmail] = useState('');
@@ -33,16 +34,17 @@ export const Login = (props) => {
 						id="password"
 						name="password"
 					/>
-					<button type="submit" onclick="myFunction()">
+					<button type="submit" onclick="myFunction()" className="btn-login">
 						Log In
 					</button>
 				</form>
-				<button
+				{/* <button
 					className="link-btn"
-					onClick={() => props.onFormSwitch('register')}
+					onClick={() => props.onFormSwitch('/register')}
 				>
 					Don't have an account? Register here.
-				</button>
+				</button> */}
+				<button className="link-btn"><Link to="/register" className="link-btn">Don't have an account? Register here.</Link></button>
 			</div>
 		</div>
 	);

@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
+import RegisterPage from "./pages/RegisterPage";
 import ForumPage from "./pages/ForumPage";
 import SurveyPage from "./pages/SurveyPage";
 import ArticleListPage from "./pages/ArticleListPage";
@@ -19,6 +20,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/Login" element={<LoginPage />} />
+        <Route path="/Register" element={<RegisterPage />} />
         <Route path="/Forum" element={<ForumPage />} />
         <Route path="/Survey" element={<SurveyPage />} />
         <Route path="/ArticleList" element={<ArticleListPage />} />
@@ -26,6 +28,7 @@ function App() {
         <Route path="/Anxiety" element={<AnxietyPage />} />
         <Route path="/Trauma" element={<TraumaPage />} />
         <Route path="/Phobias" element={<PhobiasPage />} />
+
       </Routes>
     </HashRouter>
   );

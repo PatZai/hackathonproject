@@ -1,5 +1,5 @@
-/*start register Page */
-:root {
+/* start register Page */ 
+/* :root {
 	--input-padding-x: 1.5rem;
 	--input-padding-y: 0.75rem;
 }
@@ -24,10 +24,9 @@ body {
 
 .card-signin .card-img-left {
 	width: 45%;
-	/* Link to your background image using in the property below! */
-	background: scroll center url('https://huykhong.com/codepen/wallpaper.jpg');
-	background-size: cover;
-}
+	Link to your background image using in the property below! 
+	 background: scroll center url('https://huykhong.com/codepen/wallpaper.jpg'); 
+	background-size: cover; 
 
 .card-signin .card-body {
 	padding: 2rem;
@@ -68,7 +67,7 @@ body {
 	display: block;
 	width: 100%;
 	margin-bottom: 0;
-	/* Override default `<label>` margin */
+	  Override default `<label>` margin  
 	line-height: 1.5;
 	color: #495057;
 	border: 1px solid transparent;
@@ -116,6 +115,6 @@ body {
 .btn-facebook {
 	color: white;
 	background-color: #3b5998;
-}
+} 
 
-/* end register page */
+ end register page*/

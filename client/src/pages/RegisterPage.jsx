@@ -1,10 +1,10 @@
 
-import RegisterList from '../components/Register/RegisterList';
+import Registration from '../components/Login/Registration.jsx';
 
 const RegisterPage = () => {
 	return (
 		<>
-			<RegisterList />
+			<Registration />
 		</>
 	);
 };
