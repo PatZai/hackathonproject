@@ -1,5 +1,9 @@
 /* card hover start */
 
+.cards-title h1 {
+	text-align: center;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap');
 :root {
 	--d: 700ms;
@@ -13,7 +17,7 @@
 	grid-gap: 1rem;
 	padding: 1rem;
 	max-width: 1024px;
-	margin: 0 auto;
+	margin: 100px auto;
 	font-family: var(--font-sans);
 }
 @media (min-width: 600px) {

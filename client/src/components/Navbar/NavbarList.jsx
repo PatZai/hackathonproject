@@ -7,7 +7,7 @@ const NavbarList = () => {
 	return (
 		<nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid justify-content-between">
-    <Link class="navbar-brand" to="/"><img src="./images/Smaller_logo.png" alt="Logo" /></Link>
+    <Link class="navbar-brand" to="/"><img src={require("../images/Smaller_logo.png")} alt="Logo" className='logo-nav'/></Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="  navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

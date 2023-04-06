@@ -3,6 +3,10 @@ import "./style.css"
 const CardList = () => {
 	return (
 		// <!-- partial:index.partial.html -->
+		<div>
+			<div className='cards-title'>
+				<h1>ARTICLES</h1>
+			</div>
 		<main class="page-content">
 			<div class="card">
 				<div class="content">
@@ -40,6 +44,7 @@ const CardList = () => {
 				</div>
 			</div>
 		</main>
+		</div>
 	);
 };
 

@@ -1,3 +1,7 @@
+.home-title {
+    text-align: center;
+}
+
 .comment-info{
     background-color: green;
     width: 100%;
@@ -66,4 +70,5 @@ button {
     background-color: green;
     border-radius: 10px;
     padding: 3px 5px;
+    color: white;
 }

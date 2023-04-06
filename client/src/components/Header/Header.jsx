@@ -1,26 +1,24 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import "./style.css"
 const Header = () => {
 	return (
 		<div class="landing-page">
-			<div class="container">
-				<div class="header-area">
-					<div class="info">
-						<h1>Mental health Checker</h1>
+			<div class="container text-center">
+				<div class="header-area row align-items-start">
+				<div class="image col">
+						<img src={require("../images/Logo.png")} alt="random" className='logo-header' />
+					</div>
+					<div class="info col">
+						<h1>Health Hive</h1>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Repellendus odit nihil ullam nesciunt quidem iste, Repellendus
-							odit nihil
+							A community driven application where you can learn more from currated articles or to reach out to the community to understand mental health better
 						</p>
-						<Link to="/Survey"><button>Checker Survey</button></Link>
 					</div>
-					<div class="image">
-						<img src="https://i.postimg.cc/65QxYYzh/001234.png" alt="random" />
-					</div>
+					
 				</div>
 			</div>
 		</div>
+
 	);
 };
 
