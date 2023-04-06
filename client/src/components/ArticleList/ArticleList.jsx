@@ -4,25 +4,25 @@ const ArticleList = () => {
 	return (
 		<div class='container'>
 			<div class='article-wrapper'>
-				<Link href=" " class="article-title" to="/Articles">Anxiety</Link>
+				<Link href=" " class="article-title" to="/Anxiety">Anxiety</Link>
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquid soluta incidunt accusamus reprehenderit!
 				</p>
 			</div>
 			<div class='article-wrapper'>
-				<Link href=" " class="article-title" to="/Articles">Depression</Link>
+				<Link href=" " class="article-title" to="/Depression">Depression</Link>
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquid soluta incidunt accusamus reprehenderit!
 				</p>
 			</div>
 			<div class='article-wrapper'>
-				<Link href=" " class="article-title" to="/Articles">Phobias</Link>
+				<Link href=" " class="article-title" to="/Phobias">Phobias</Link>
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquid soluta incidunt accusamus reprehenderit!
 				</p>
 			</div>
 			<div class='article-wrapper'>
-				<Link href=" " class="article-title" to="/Articles">Trauma</Link>
+				<Link href=" " class="article-title" to="/Trauma">Trauma</Link>
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquid soluta incidunt accusamus reprehenderit!
 				</p>
