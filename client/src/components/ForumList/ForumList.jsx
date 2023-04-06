@@ -1,5 +1,3 @@
-// import "https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./style.css";

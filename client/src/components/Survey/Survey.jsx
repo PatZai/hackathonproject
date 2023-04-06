@@ -68,7 +68,7 @@
 // export default Survey;
 
 import React from 'react';
-
+import "./style.css";
 const Survey = () => {
 	return (
 		<div id="survey">
