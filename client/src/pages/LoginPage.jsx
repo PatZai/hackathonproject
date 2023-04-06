@@ -1,7 +1,14 @@
-import Login from "../components/Login/Login";
+import Login from '../components/Login/Login';
+import NavbarList from '../components/Navbar/NavbarList';
+
 
 const LoginPage = () => {
-  return <Login />;
+	return (
+		<>
+			<NavbarList />
+			<Login />
+		</>
+	);
 };
 
 export default LoginPage;
