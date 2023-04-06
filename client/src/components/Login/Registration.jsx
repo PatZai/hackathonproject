@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./registerstyle.css"
 
 export const Register = (props) => {
@@ -42,11 +43,12 @@ export const Register = (props) => {
           id="password"
           name="password"
         />
-        <button type="submit">Register</button>
+        <button type="submit" className="btn-register">Register</button>
       </form>
-      <button className="link-btn" onClick={() => props.onFormSwitch("/Login")}>
+      {/* <button className="link-btn" onClick={() => props.onFormSwitch("/Login")}>
         Already have an account? Login here.
-      </button>
+      </button> */}
+      <button className="link-btn"><Link to="/Login" className="link-btn"> Already have an account? Login here.</Link></button>
     </div>
     </div>
   );

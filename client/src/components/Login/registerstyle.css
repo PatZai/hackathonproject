@@ -49,12 +49,13 @@
     text-decoration: underline;
   }
 
-  .btn-login{
+  .btn-login, .btn-register{
     border: none;
     background-color: white;
     padding: 20px;
     border-radius: 10px;
     cursor: pointer;
     color: #7439db;
-    margin-top: 20px;
+    margin-top: 30px;
   }
+
