@@ -1,14 +1,22 @@
 {
   "files": {
-    "main.css": "/hackathonproject/static/css/main.8e903605.css",
-    "main.js": "/hackathonproject/static/js/main.a162eb05.js",
+    "main.css": "/hackathonproject/static/css/main.797f491d.css",
+    "main.js": "/hackathonproject/static/js/main.00ebfbc1.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/hackathonproject/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/Last_squiggly.png": "/hackathonproject/static/media/Last_squiggly.4d590b6b79789175e793.png",
+    "static/media/Other_squiggly.png": "/hackathonproject/static/media/Other_squiggly.cafa096375828becbe25.png",
+    "static/media/More_squiggly.png": "/hackathonproject/static/media/More_squiggly.c4e4cf078ae7de51ef78.png",
+    "static/media/Random_squiggly.png": "/hackathonproject/static/media/Random_squiggly.8f173c7222167d71826e.png",
+    "static/media/Logo.png": "/hackathonproject/static/media/Logo.d60b983b5babc333cc98.png",
+    "static/media/Smaller_logo.png": "/hackathonproject/static/media/Smaller_logo.c5f3f61c65cf79783b2c.png",
     "static/media/pfp.png": "/hackathonproject/static/media/pfp.c9456980c67bfda1f27a.png",
     "index.html": "/hackathonproject/index.html",
-    "main.8e903605.css.map": "/hackathonproject/static/css/main.8e903605.css.map",
-    "main.a162eb05.js.map": "/hackathonproject/static/js/main.a162eb05.js.map"
+    "main.797f491d.css.map": "/hackathonproject/static/css/main.797f491d.css.map",
+    "main.00ebfbc1.js.map": "/hackathonproject/static/js/main.00ebfbc1.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/hackathonproject/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e903605.css",
-    "static/js/main.a162eb05.js"
+    "static/css/main.797f491d.css",
+    "static/js/main.00ebfbc1.js"
   ]
 }
