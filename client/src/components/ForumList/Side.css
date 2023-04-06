@@ -1,0 +1,13 @@
+.custom-active {
+    font-size: 25px;
+    font-weight: italic;
+    color: black;
+    background-color: black;
+    color: white;
+}
+
+a.custom-link {
+    color: #000; /* set the text color to black */
+  text-decoration: none; /* remove the default underline */
+  }
+  
