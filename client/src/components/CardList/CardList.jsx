@@ -10,15 +10,6 @@ const CardList = () => {
 			<main class="page-content">
             <div class="card">
                 <div class="content">
-                    <h2 class="title">Depression</h2>
-                    <p class="copy">
-                        Learn more about how to deal with depression...
-                    </p>
-                    <button class="btn">Click here</button>
-                </div>
-            </div>
-            <div class="card">
-                <div class="content">
                     <h2 class="title">Anxiety</h2>
                     <p class="copy">
                         Learn more about how to deal with anxiety...
@@ -28,16 +19,25 @@ const CardList = () => {
             </div>
             <div class="card">
                 <div class="content">
-                    <h2 class="title">Psychology</h2>
-                    <p class="copy">Peer into the human mind and find out more about what makes us who we are...</p>
+                    <h2 class="title">Depression</h2>
+                    <p class="copy">
+                        Learn more about how to deal with depression...
+                    </p>
                     <button class="btn">Click here</button>
                 </div>
             </div>
             <div class="card">
                 <div class="content">
-                    <h2 class="title">Mentality</h2>
+                    <h2 class="title">Phobias</h2>
+                    <p class="copy">Learn more about how to deal with phobias...</p>
+                    <button class="btn">Click here</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h2 class="title">Trauma</h2>
                     <p class="copy">
-                        Learn about how people perceive the world...
+						Learn more about how to deal with phobias...
                     </p>
                     <button class="btn">Click here</button>
                 </div>
