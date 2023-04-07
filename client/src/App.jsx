@@ -9,6 +9,7 @@ import DepressionPage from "./pages/DepressionPage";
 import AnxietyPage from "./pages/AnxietyPage";
 import TraumaPage from "./pages/TraumaPage";
 import PhobiasPage from "./pages/PhobiasPage";
+import AboutPage from "./pages/AboutPage";
 
 import { HashRouter, Route, Routes } from "react-router-dom";
 
@@ -27,6 +28,7 @@ function App() {
         <Route path="/Anxiety" element={<AnxietyPage />} />
         <Route path="/Trauma" element={<TraumaPage />} />
         <Route path="/Phobias" element={<PhobiasPage />} />
+        <Route path="/About" element={<AboutPage />} />
 
       </Routes>
     </HashRouter>
