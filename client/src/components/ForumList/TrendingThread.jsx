@@ -1,10 +1,11 @@
 import './threadstyle.css';
+import { Link } from 'react-router-dom';
 
 const TrendingThread = () => {
     return (
         <div>
             <div className='home-title'>
-                <h1>Community Forum</h1>
+                <Link to="/Forum">Community Forum</Link>
             </div>
             <div className='thread-div'>
                 <div class="comment-thread">

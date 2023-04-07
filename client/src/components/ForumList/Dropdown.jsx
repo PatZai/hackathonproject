@@ -9,9 +9,9 @@ const Dropdown = () => {
     Categories
   </button>
   <ul class="dropdown-menu">
-    <li><Link class="dropdown-item" to="#">Learn</Link></li>
-    <li><Link class="dropdown-item" to="#">Share</Link></li>
-    <li><Link class="dropdown-item" to="#">Build</Link></li>
+    <li><Link class="dropdown-item" to="#">Depression</Link></li>
+    <li><Link class="dropdown-item" to="#">Anxiety</Link></li>
+    <li><Link class="dropdown-item" to="#">Trauma</Link></li>
   </ul>
   <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
     Filter by
