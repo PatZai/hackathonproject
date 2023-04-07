@@ -1,6 +1,6 @@
 import React from 'react';
 import './headerstyle.css';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const Header = () => {
 	return (
@@ -22,14 +22,14 @@ const Header = () => {
 							mental health better
 						</p>
 					</div>
-					<h2>Check your Mental Health!</h2>
-					
+					{/* <h2>Check your Mental Health!</h2> */}
+
 				</div>
-				<button className='btn btn-primary'  >
-						<Link class="nav-link active" aria-current="page" to="/Survey">
-							Check
-						</Link>
-					</button>
+				{/* <button className='btn btn-primary'  >
+					<Link class="nav-link active" aria-current="page" to="/Survey">
+						Check
+					</Link>
+				</button> */}
 			</div>
 		</div>
 	);

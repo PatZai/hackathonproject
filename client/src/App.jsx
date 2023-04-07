@@ -3,7 +3,7 @@ import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
 import ForumPage from "./pages/ForumPage";
-import SurveyPage from "./pages/SurveyPage";
+// import SurveyPage from "./pages/SurveyPage";
 import ArticleListPage from "./pages/ArticleListPage";
 import DepressionPage from "./pages/DepressionPage";
 import AnxietyPage from "./pages/AnxietyPage";
@@ -21,7 +21,7 @@ function App() {
         <Route path="/Login" element={<LoginPage />} />
         <Route path="/Register" element={<RegisterPage />} />
         <Route path="/Forum" element={<ForumPage />} />
-        <Route path="/Survey" element={<SurveyPage />} />
+        {/* <Route path="/Survey" element={<SurveyPage />} /> */}
         <Route path="/ArticleList" element={<ArticleListPage />} />
         <Route path="/Depression" element={<DepressionPage />} />
         <Route path="/Anxiety" element={<AnxietyPage />} />
