@@ -14,31 +14,42 @@ const cardList = () => {
 					<div class="content">
 						<h2 class="title">Anxiety</h2>
 						<p class="copy">Learn more about how to deal with anxiety...</p>
-						<button class="btn"><Link to="/Anxiety">Click here</Link></button>
+						<button class="btn">
+							<Link to="/Anxiety">Click here</Link>
+						</button>
 					</div>
 				</div>
 				<div class="card">
 					<div class="content">
 						<h2 class="title">Depression</h2>
 						<p class="copy">Learn more about how to deal with depression...</p>
-						<button class="btn"><Link to="/Depression">Click here</Link></button>
+						<button class="btn">
+							<Link to="/Depression">Click here</Link>
+						</button>
 					</div>
 				</div>
 				<div class="card">
 					<div class="content">
 						<h2 class="title">Phobias</h2>
 						<p class="copy">Learn more about how to deal with phobias...</p>
-						<button class="btn"><Link to="/Phobias">Click here</Link></button>
+						<button class="btn">
+							<Link to="/Phobias">Click here</Link>
+						</button>
 					</div>
 				</div>
 				<div class="card">
 					<div class="content">
 						<h2 class="title">Trauma</h2>
 						<p class="copy">Learn more about how to deal with phobias...</p>
-						<button class="btn"><Link to="/Trauma">Click here</Link></button>
+						<button class="btn">
+							<Link to="/Trauma">Click here</Link>
+						</button>
 					</div>
 				</div>
 			</main>
+			<div className="text-center">
+				<button className="btn btn-primary m-5"><Link to="/ArticleList">Click here</Link> more articles</button>
+			</div>
 		</div>
 	);
 };
