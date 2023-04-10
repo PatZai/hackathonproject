@@ -10,6 +10,7 @@ import AnxietyPage from "./pages/AnxietyPage";
 import TraumaPage from "./pages/TraumaPage";
 import PhobiasPage from "./pages/PhobiasPage";
 import AboutPage from "./pages/AboutPage";
+import ThreadPage from "./pages/ThreadPage";
 
 import { HashRouter, Route, Routes } from "react-router-dom";
 
@@ -29,6 +30,7 @@ function App() {
         <Route path="/Trauma" element={<TraumaPage />} />
         <Route path="/Phobias" element={<PhobiasPage />} />
         <Route path="/About" element={<AboutPage />} />
+        <Route path="/Thread" element={<ThreadPage />} />
 
       </Routes>
     </HashRouter>

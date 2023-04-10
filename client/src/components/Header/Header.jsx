@@ -17,9 +17,10 @@ const Header = () => {
 					<div class="info col">
 						<h1>Health Hive</h1>
 						<p>
-							A community driven application where you can learn more from
-							currated articles or to reach out to the community to understand
-							mental health better
+							Health Hive is a Community and Education Platform. Learn more about mental health by reading curated articles that aim to provide you a better understanding of those afflicted by mental health issues.
+						</p>
+						<p>
+							Got any questions? Try our forum pages to learn more from the community. We aim to foster a thriving community of individuals trying to help each other.
 						</p>
 					</div>
 					{/* <h2>Check your Mental Health!</h2> */}

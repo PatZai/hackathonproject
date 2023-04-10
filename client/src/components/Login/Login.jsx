@@ -33,7 +33,7 @@ export const Login = (props) => {
             id="password"
             name="password"
           />
-          <button type="submit" onclick="myFunction()" className="btn-login">
+          <button type="submit" onclick="myFunction()" className="btn-login reglogin">
             Log In
           </button>
         </form>

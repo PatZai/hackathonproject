@@ -14,41 +14,45 @@ const cardList = () => {
 					<div class="content">
 						<h2 class="title">Anxiety</h2>
 						<p class="copy">Learn more about how to deal with anxiety...</p>
+						<Link to="/Anxiety">
 						<button class="btn">
-							<Link to="/Anxiety">Click here</Link>
-						</button>
+							Click here
+						</button></Link>
 					</div>
 				</div>
 				<div class="card">
 					<div class="content">
 						<h2 class="title">Depression</h2>
 						<p class="copy">Learn more about how to deal with depression...</p>
+						<Link to="/Depression">
 						<button class="btn">
-							<Link to="/Depression">Click here</Link>
-						</button>
+							Click here
+						</button></Link>
 					</div>
 				</div>
 				<div class="card">
 					<div class="content">
 						<h2 class="title">Phobias</h2>
 						<p class="copy">Learn more about how to deal with phobias...</p>
+						<Link to="/Phobias">
 						<button class="btn">
-							<Link to="/Phobias">Click here</Link>
-						</button>
+							Click here
+						</button></Link>
 					</div>
 				</div>
 				<div class="card">
 					<div class="content">
 						<h2 class="title">Trauma</h2>
 						<p class="copy">Learn more about how to deal with phobias...</p>
+						<Link to="/Trauma">
 						<button class="btn">
-							<Link to="/Trauma">Click here</Link>
-						</button>
+							Click here
+						</button></Link>
 					</div>
 				</div>
 			</main>
 			<div className="text-center">
-				<button className="btn btn-primary m-5"><Link to="/ArticleList">Click here</Link> more articles</button>
+			<Link to="/ArticleList"><button className="btn btn-primary m-5">Click here more articles</button></Link>
 			</div>
 		</div>
 	);

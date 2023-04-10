@@ -1,0 +1,37 @@
+#comments{
+    background-color: white;
+    width: 90%;
+    padding: 10px;
+    border: none;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 10%;
+}
+
+.comment-form {
+    background-color: rgb(199, 228, 149);
+    width: 81%;
+    margin: auto;
+}
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.submit-reply {
+    background-color: rgb(144, 199, 110);
+    border-radius: 5px;
+}
+
+.comment-form>form{
+    padding: 10px;
+}
+
+.comment-voting {
+    margin-bottom: 20px;
+}
